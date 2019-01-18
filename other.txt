@@ -1,0 +1,4 @@
+"JavaScript:what is the advantage of using ' over ""?"	"the "" are more common in HTML so we can avoid escaping them:"
+"JavaScript:what is !!""""?"	false:
+what is a web api	the thing you have exposed for access
+how do we create an entry point file for a server with express	&lt;edit this code with the source code&gt;

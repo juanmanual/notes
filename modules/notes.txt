@@ -1,0 +1,9 @@
+JavaScript:what did ES6 introduce?	template literals - default parameters - let and const - arrow notation:
+JavaScript:what is the spread operator?	... &lt;object name&gt; copies k-v pairs into new object literal: introuduced in ES6
+TypeScript:what is importing in ES6?	allows you to grab code segments and objects from other files and use them:
+ES6 modules: what is an es6 module?	lets you export whatever you want:
+ES6 modules: how does importing work?	import {&lt;name1&gt; &lt;name2&gt; ...} 'path-to-file': import * as personFile from 'path-to-file'
+ES6 modules: how well is import and export supported?	several browsers don't support it but ts-node does:
+ES6 modules: how are modules similar to namespaces?	allows you to call the &lt;named import&gt;.&lt;symbol&gt;:
+ES6 modules: how does default work?	import whatever from 'path-to-file': export default let &lt;object declaration&gt;
+ES6 modules: if you do like just import * from 'path-to-file' do you need an alias?	yes:
