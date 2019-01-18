@@ -1,0 +1,17 @@
+stack: why don't things always stop when you hit the end of the file?	there are other loops and queues that need to be resolved:
+stack: how many threads do I have control over?	1:
+stack: what is the event loop?	waits for requests to be passed in:
+stack: what is the callback queue?	where requests go to be served after the stack is empty:
+stack: what is an event listener?	we can have things waiting for events:
+stack: what do we do with event listeners?	register them to callback functions:
+stack: what happens if multiple events come in?	they get put on a queue until the stack is empty:
+stack: what do specific threads do?	one handles execution and 3 or more handle the event loop:
+stack: what makes JS good for web development?	becasue requests are very small it is very fast to get through the callback queue:
+stack: when is JS bad?	when a lot of longrunning processes are triggered:
+stack: what is the chrome V8 engine?	it's a heap and then it's a call back:
+stack: what is a call stack?	holds calls to be executed:
+stack: what is blocking?	code that is slow:
+stack: where do calls go if not onto the stack?	they are pushed onto APIs:
+stack: what happens to a call when it is done blocking in an API?	the event loop pushes it unto the stack:
+stack: what is it the event loop?	pushes callbacks from the callback queue unto the stack:
+stack: what is a shim?	wrapping code around other code:

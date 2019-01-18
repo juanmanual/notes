@@ -1,0 +1,8 @@
+express:what is express?	a thing that lets us handle http requests:it's a framework for creating middleware
+express:how do we handle http requests?	"via express.&lt;REQUEST&gt;(""path"": &lt;callback function&gt;)"
+express:how do we handle arbitrary http requests?	app.use():
+express:what is middleware?	request handling entry point that may pass to another piece of middleware:
+express:what are some examples of middleware?	logger security body-parser request-handler:
+express:what is a body parser?	parses a JSON body and creates a javascript object based on it:
+express:how do we allow middleware to intervene regardless of the url of the request?	don't provide the url to the middleware function:
+express:how do we pass through a piece of middlware?	use next() instead of send():

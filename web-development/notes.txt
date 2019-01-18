@@ -1,0 +1,9 @@
+Web development: what does a full stack web app look like?	needs the followig layer: user-facing server and persistence
+Web development: what is the persistence layer?	databases and static models:
+Web development: what is the user facing layer?	the browser that lets the user request and send information: constant info exchange with server layer
+Web development: what is the server layer?	acts as a middle ground between the user and the database layer: constant info exchange with both layers
+Web development: what languages can be used for servers?	c# Java Javascript Python etc:
+Web development: what languages can be used for user facing?	html css and JS:
+Web development: what languages can be used for databases?	MySQL MongoDB Oracle PostgreSQL:
+Web development: how many jobs are there in web development?	a ton:
+Web development: what certs will get reimbursed?	OCA possibly AWS: devops or cloud

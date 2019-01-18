@@ -1,0 +1,18 @@
+http: what does the GET keyword do?	retrieve resources:
+http: what does the POST keyword do?	create resources:
+http: what does the PUT keyword do?	create or update resources:
+http: what does the DELETE keyword do?	delete resources:
+http: what does the PATCH keyword do?	partial update of resources:
+http: how are credentials sent?	:
+http: what is a status code in HTTP?	used to help identify what happend within the server:
+http: what is the 100 series of status code?	info:
+http: what is the 200 series of status code?	success:
+http: what is the 300 series of status code?	redirect:
+http: what is the 400 series of status code?	error occurred due to client:
+http: what is the 500 series of status code?	error occurred due to server:
+http: what is the 600 series of status code?	error occurred due to server:
+http: how do we handle errors?	using status code:
+http: where does http run on?	tcp:
+http: where does tcp run on?	ip:
+http: what is the default port of http?	80:
+http: what is a network?	just a bunch of wires that lets computers communicate:

@@ -1,0 +1,42 @@
+TypeScript:what is TypeScript?	it's a superset of JS:
+TypeScript:why don't we use TypeScript for everything?	browsers don't understnad JS:
+TypeScript:what is transpiling?	when you convert code written in a language to code written in a similar level language:
+TypeScript:what is compiling?	when you convert code written in a language to code written in a lower level language:
+TypeScript:will browsers eventually understand native TypeScript?	who knows: people are compiling TO javaScript so it's unlikely
+TypeScript:what does TypeScript add to JavaScript?	types interfaces generics and access modifiers:
+TypeScript:how is the type of a variable determined?	it can be either inferred or stated: let a:number = 5 or let a = 5
+TypeScript:how do you declare function parameter types?	use p:&lt;type&gt; in place of the parameter p: if no type is given then p is p:any
+TypeScript:how many types can variables have?	the bar operator allows multiple types to be specified: a:number|string
+TypeScript:what do types allow you to do?	catch type errors at compiletime:
+TypeScript:what are access modifiers?	public private (default) protected:
+TypeScript:what is the difference between an interface and an abstract class?	:
+TypeScript:what is npm?	can be used to download libraries and versions of node:
+TypeScript:how do we use comments?	use // or /* */: same as in JS
+TypeScript:is it possible to overload functions?	not really but you can declare optional params:
+TypeScript:what is the difference between interface and abstract class?	can extend multiple IF but only one abstract class: IF cannot have concrete methods
+TypeScript:what is abstraction?	where an interface is provided in place of the implementation:
+TypeScript:what is an interface?	just defines abstract methods and possibly fields: also known as a contract
+TypeScript:what is an abstract method?	just a signature with no implementation:
+TypeScript:where is an interface useful?	defining how something works without having to define the implementation details: allows code to work regardless of changes to the rest of the code
+TypeScript:what is an abstract class?	can have concrete or abstract methods: can only extend one abstract class
+TypeScript:what do interfaces and abstract classes have in common?	cannot be instantiated directly, both support abstract methods:
+TypeScript:when should I use abstract class?	some functionality is defined but some relies on user specific functionality:
+TypeScript:what is importing in ES6?	allows you to grab code segments and objects from other files and use them:
+TypeScript:?	:
+TypeScript:what is soa?	service oriented architecture: based on black boxes
+TypeScript:what is a black box?	allows sending requests and getting responses in given formats: internals are abstracted
+TypeScript:what is an example of soa?	web services or server-server communication:
+TypeScript:what are some advantages of soa?	there is no need to know what is going on on the other end:
+TypeScript:what is SOAP?	service oriented architecture protocol:
+TypeScript:what is REST?	uses either http or https: stateless
+TypeScript:how does REST rely on http/https?	uses status codes in headers for exception handling:
+TypeScript:what language does REST use for data?	technically any but most commonly JSON:
+TypeScript:what is a resource in REST?	can be an object or file:
+TypeScript:how do we access resources in REST?	via URLs:
+TypeScript:how do we get all user resources in REST?	GET /users would get all users:
+TypeScript:how do we access users by id?	GET /users/:id:
+TypeScript:how do we get all users with a given value parameter for a particular key?	GET /users/[key]/[value]:
+TypeScript:how do we create a user resource?	use POST /[symbol]: should pass object
+TypeScript:how do we replace or create a resource?	use PATCH /[symbol]: should pass object
+TypeScript:what do REST conventions help us do?	identify where things should be when things go wrong:
+TypeScript:how do urls correspond to routers?	one url for each /[symbol] is usually good:
